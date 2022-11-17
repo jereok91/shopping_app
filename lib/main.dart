@@ -12,7 +12,10 @@ void main() {
       showColors: true,
     ),
   );
-  // TODO
+
   // agregar el ShoppingController al DI de Get
+  Get.put(
+    ShoppingController(),
+  );
   runApp(const MyApp());
 }
